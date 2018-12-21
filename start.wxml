@@ -1,0 +1,8 @@
+<!--start.wxml-->
+
+
+
+<button class="btn1" bindtap="getDataFromOneNet">
+
+查看满溢程度</button>
+
