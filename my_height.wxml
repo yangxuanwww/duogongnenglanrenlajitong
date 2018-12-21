@@ -1,0 +1,19 @@
+<!--pages/my_height/my_height.wxml-->
+
+<button class="btn1" bindtap="getDataFromOneNet">
+
+当前距离为：{{height}} cm</button>
+
+
+<canvas class = "canvas" id="chart3"
+
+canvas-id="tempe"></canvas>
+<text id="text">温馨提示：</text>
+
+<view class="text2">
+<view  wx:if="{{height>=10}}">还能再战五百年！！!</view>
+<view wx:elif="{{height>=5&&height<10}}">唉呀快被挤晕了QwQ</view>
+<view wx:else>不能工作了！快扶朕躺下！</view>
+</view>
+
+
